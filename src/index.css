@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+  font-family: "Archivo", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+
+
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13rem 5rem;
+  height: 100vh;
+}
+.borde{
+  border-bottom: 7px solid #0783e7;
+}
+.cart{
+  caret-color: #0783e7;
+}
+.chekd{
+  accent-color:#0783e7 ;
+}
+.next{
+
+
+  width: fit-content;
+
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.next:hover{
+  background: rgb(2,0,36);
+  background: linear-gradient(329deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.color-fer{
+  cursor: pointer;
+  color: #0783e7;
+}
+
+.shadow-box {
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1); /* X-offset, Y-offset, blur, color */
+}
+ .font-hello{
+  font-size: 4rem;
+
+ }
+
+
+ .color-input {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.color-input:focus {
+  background-color: #e6f7ff;
+  border-color: #007bff;
+
+}
+.create{
+  color: #908e8e;
+}
+.f{
+  cursor: pointer;
+}
