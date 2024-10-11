@@ -1,13 +1,9 @@
-import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-function Login() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+import { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
+export default function Login() {
 
   const onSubmit = (data) => {
     // Retrieve stored registration data from localStorage

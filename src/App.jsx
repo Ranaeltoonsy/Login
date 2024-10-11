@@ -1,20 +1,16 @@
-import Login from "./Pages/Login";
-import Regetar from "./Pages/regestar";
-import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
-
-
-
+// eslint-disable-next-line no-unused-vars
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Regetar from './login page/regestar'
 export default function App() {
   return (
-  <>
-
- <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path='/regester' element={<Regetar/>}/>
-    </Routes>
-  </BrowserRouter>
-
-  </>
-  );
+    <div className=' shadow-box   px-0 col-12 wed'>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<h1>Home Page</h1>} />
+          <Route path="/register" element={<Regetar />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  )
 }
+
